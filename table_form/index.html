@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table and Form</title>
+
+        <style>
+	table, th, td {
+		border: solid 1px black;
+	}
+</style>
+<meta charset="UTF-8">
+    </head>
+
+   <body>
+    <h2><u>1. TABLE</u></h2>
+    <b>対戦結果</b><br>
+    第73回JABA九州大会<br>
+    2021年5月9日(日) 9:00<br>
+    試合会場：オーヴィジョンスタジアム下関
+
+    <table style="width: 75%;text-align: center;" >
+        <tr>
+            <th>チーム名</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+            <th>計</th>
+        </tr>
+        <tr>
+            <td>パナソク</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>3</td>
+            <td>0</td>
+            <td>3</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>Honda熊本</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+        </tr>
+    </table>
+    <br>
+    <table style="width: 75%;">
+        <tr>
+            <th rowspan="3">バッテリー</th>
+            <th>Honda熊本</th>
+            <th>パナソニック</th>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">投手：島袋、福田、横川、内田、高山、中津<br>
+            捕手：竹葉</td>
+            <td style="vertical-align: top;">投手：榎本 捕手：川上</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <h2><u>2.FORM</u></h2>
+    <b>お問い合わせ</b>
+    <form>
+        <label>お名前 [必須]:</label> <input type="text"><br><br>
+        <label>メールアドレス [必須]:</label> <input type="email"><br><br>
+        <label>電話番号[任意]:</label> <input type="number"><br><br>
+        <label>ご用件 [必須]:</label> 
+            <select>
+                <option>書籍についてのご質問(個人のお客様)</option>
+                <option>書籍についてのご質問(取次・書店様)</option>
+                <option>書籍についてのご質問(メディア関係者様)</option>
+                <option>アルバイト・パートに関するお問い合わせ</option>
+                <option>仕事のご依頼・お問い合わせ</option>
+                <option>外部スタッフのご希望(フリーの方、制作会社様)</option>
+                <option>その他のお問合せ</option>
+            </select><br><br>
+            <label>お問い合わせ内容 [必須]:</label><br>
+                <textarea cols="50" rows="7"></textarea><br><br>
+        <button type="button">確認</button>
+    </form>
+   </body>
+</html>
