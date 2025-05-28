@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(249, 203, 134);
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background-image: url(img/zoo.jpg);
+  background-position: 18% 60%;
+  color: white;
+  font-size: 30px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  }
+
+.wrapper ol {
+    list-style: none;
+    display: flex;
+   flex-direction: column;
+   gap: 30px;
+   padding: 0;
+}
+
+.animal-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.canine,
+.bird,
+.feline {
+    background-color: aliceblue;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 20px;
+    border-color: black;    
+}
+
+footer {
+    background-color: rgb(186, 83, 35);
+    text-align: center;
+    color: aliceblue;
+    list-style: none;
+}
+
+.link {
+    list-style: none;
+    text-decoration: none;
+}
+
+a:link {
+  color: rgb(255, 177, 177);
+}
+
+a:visited {
+  color: rgb(98, 224, 98);
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: rgb(243, 53, 113);
+}

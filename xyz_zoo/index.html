@@ -1,74 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="jp">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Latihan 1 Ozora</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-<h1><i><b>XYZ Zoo Animal List</b></i></h1>
-<img src="img/zoo.jpg" alt="Zoo" width="1000" height="650" />
+        <div class="header">
+            <h1><i><b>XYZ Zoo Animal List</b></i></h1>
+        </div>
+
 <br>
-<ol>
-    <li>
-        <h2>Feline</h2>
+<div class="wrapper">
+  <ol class="animal">
+    <li class="feline">
+      <h2>Feline</h2>
+      <ul class="animal-list">
+        <li>
+          <h3>Lynx</h3>
+          <a href="img/lynx.jpg" target="_blank">
+            <img src="img/lynx.jpg" alt="Lynx" width="500" height="300" />
+          </a>
+        </li>
+        <li>
+          <h3>Lion</h3>
+          <a href="img/lion.jpg" target="_blank">
+            <img src="img/lion.jpg" alt="Lion" width="500" height="300" />
+          </a>
+        </li>
+      </ul>
     </li>
-    <ul>
+    
+    <li class="canine">
+      <h2>Canine</h2>
+      <ul class="animal-list">
         <li>
-            <h3>Lynx</h3>
-            <a href="img/lynx.jpg" target="_blank">
-            <img src="img/lynx.jpg" alt="Lynx" width="500" height="300" /> </a>
+          <h3>Wolf</h3>
+          <a href="img/wolf.jpg" target="_blank">
+            <img src="img/wolf.jpg" alt="Wolf" width="500" height="300" />
+          </a>
         </li>
         <li>
-            <h3>Lion</h3>
-            <a href="img/lion.jpg" target="_blank">
-            <img src="img/lion.jpg" alt="lion" width="500" height="300" /> </a>        
+          <h3>Coyote</h3>
+          <a href="img/coyote.jpg" target="_blank">
+            <img src="img/coyote.jpg" alt="Coyote" width="500" height="300" />
+          </a>
         </li>
-    </ul>
-    <br>
-    <li>
-        <h2>
-            Canine
-        </h2>
+      </ul>
     </li>
-    <ul>
+    
+    <li class="bird">
+      <h2>Bird</h2>
+      <ul class="animal-list">
         <li>
-            <h3>Wolf</h3>
-            <a href="img/wolf.jpg" target="_blank">
-            <img src="img/wolf.jpg" alt="Wolf" width="500" height="300" /> </a>
+          <h3>Parrot</h3>
+          <a href="img/parrot.jpg" target="_blank">
+            <img src="img/parrot.jpg" alt="Parrot" width="500" height="300" />
+          </a>
         </li>
         <li>
-            <h3>Coyote</h3>
-            <a href="img/coyote.jpg" target="_blank">
-            <img src="img/coyote.jpg" alt="Coyote" width="500" height="300" />  </a>
+          <h3>Owl</h3>
+          <a href="img/owl.jpg" target="_blank">
+            <img src="img/owl.jpg" alt="Owl" width="500" height="300" />
+          </a>
         </li>
-    </ul>
-    <br>
-    <li>
-        <h2>Bird</h2>
+      </ul>
     </li>
-    <ul>
-        <li>
-            <h3>Parrot</h3>
-            <a href="img/parrot.jpg" target="_blank">
-            <img src="img/parrot.jpg" alt="Parrot" width="500" height="300" /></a>
-        </li>
-        <li>
-            <h3>Owl</h3>
-            <a href="img/owl.jpg" target="_blank">
-            <img src="img/owl.jpg" alt="Owl" width="500" height="300" /></a>
-        </li>
-    </ul>
-</ol>
+  </ol>
+</div>
+
 <br>
+
+<footer>
 <h2>Source</h2>
 <ol>
     <li>
-        <a href="http://pexels.com" target="_blank"> <p>Pexels</p> </a>
+        <a href="http://pexels.com" target="_blank" class="link"> <p>Pexels</p> </a>
     </li>
     <li>
-        <a href="http://pixabay.com" target="_blank"> <p>Pixabay</p> </a>
+        <a href="http://pixabay.com" target="_blank" class="link"> <p>Pixabay</p> </a>
     </li>
 </ol>
+</footer>
+
     </body>
 
 </html>
