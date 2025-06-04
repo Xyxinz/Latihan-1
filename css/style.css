@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: sans-serif; 
+    background: linear-gradient(rgb(252, 147, 27),rgb(234, 201, 152));
+    background-repeat: repeat;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+header {
+    font-size: 4rem;
+    font-family: Inter;
+    background: url(https://cdn.pixabay.com/photo/2022/01/01/16/29/antelope-6908215_1280.jpg);
+    background-position: 50%;
+    background-size: cover;
+    padding: 3.6%;
+    color: rgb(255, 251, 253);
+    margin-bottom: 50px;
+}
+
+.tombol {
+    font-size: 200%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+    background-color: rgb(190, 70, 18);
+    color: rgb(255, 255, 255);
+    display: block;
+    width: 500px;
+    margin: auto;
+}
+
+a:hover {
+    background-color: rgba(246, 183, 107, 0.49);
+    transition: background-color 0.35s;
+}
